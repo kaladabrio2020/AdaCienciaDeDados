@@ -1,0 +1,1 @@
+O básico da linguagem python , curso inicial de fundamentod de programação

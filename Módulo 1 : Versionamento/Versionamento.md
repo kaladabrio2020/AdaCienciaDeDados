@@ -95,24 +95,8 @@ git config --global user.email "usuario@email.com"
     git branch Nome
     ```
 
-* `mermaid
-graph LR;
-  HEAD ---> p([master]);
-  p    ---> a(commit 1)
-  a    ---> b(commit 2);
-  c([Nome]) ---> a;
-```
+* ```bash
+  git merge <branch-a-ser-mesclada>
+  ```
   
-  * ```bash
-    git add ./file
-    git commit -m "fazendo commit na branch MASTER"
-    git push
-    ```
-
-* `mermaid
-graph LR;
-  HEAD         ---> p([master]);
-  p            ---> b;;
-  a(commit 1)  ---> b(commit 2);
-  c([Nome])    ---> a;
-```
+  * operação de "merge" no Git é usada para combinar o histórico de duas ou mais branches em um único ponto, muitas vezes mesclando as alterações de uma branch em outra. Isso é útil quando você tem desenvolvimento paralelo em várias branches e deseja incorporar as alterações de uma branch em outra
